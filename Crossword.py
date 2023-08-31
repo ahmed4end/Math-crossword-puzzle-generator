@@ -127,7 +127,7 @@ class Crossword:
             if arr[0]==0:
                 arr2[0] = randint(2,50)
             if arr[1]==0:
-                arr2[1] = -1#-randint(1,4)
+                arr2[1] = -randint(1,4)
             if arr[2]==0:
                 arr2[2] = randint(2,50)
             if arr[4]==0:
